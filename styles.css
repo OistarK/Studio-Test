@@ -77,15 +77,16 @@ header img {
 	padding-top: 40px;
 	padding-bottom: 30px;
     margin: 0;
-    text-align: center;
-	justify-content: center;
 	background-color: #255f74;
+	justify-self: center;
 	width: 100%;
+	left: 0px;
+	right: 0px;
 }
 
 #colIndex section {
-    padding: 0 20px;
-	width: 376px; height: auto;
+    padding: 0 12px;
+	width: 100%; height: auto;
 	justify-self: center;
 
 }
@@ -93,7 +94,7 @@ header img {
 #colIndex .one {
 	width: 64px;
 	height: 64px;
-	padding: 15px;
+	padding: 10px;
 	border-style: solid;
 	border-color: #070707;
 	border-width: 5px;
@@ -114,7 +115,7 @@ header img {
 #colIndex .onefound {
 	width: 64px;
 	height: 64px;
-	padding: 15px;
+	padding: 10px;
 	border-style: solid;
 	border-color: #070707;
 	border-width: 5px;
