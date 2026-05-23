@@ -1,0 +1,157 @@
+
+/*
+COLOURS
+#211d1c - dark brown (for text)
+#2f261d - brown
+#4389a2 - teal
+#c62d03 - burnt red
+#da4d11 - Orange (links)
+*/
+
+/*GLOBAL SETTING
+----------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+body {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #f6ebe8;
+	margin: 0;
+	background-color: #253d49;
+}
+
+#wrapper {
+	position: relative;
+	width: 88vw; 
+	padding: 0px 0px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 700;
+}
+
+a {
+	color: #ff5f03; /* dark teal */
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ff5f03; /* burnt red */
+}
+
+
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+	color: #ffffff;	
+}
+	
+header h1 {
+
+}
+
+header img {
+
+}
+
+
+/* INDEX CONTENT 1
+----------------------------------------
+*/
+#colIndex {
+    display: flex;
+	padding-top: 40px;
+	padding-bottom: 30px;
+    margin: 0 0;
+    text-align: center;
+	justify-content: center;
+	background-color: #255f74;
+}
+
+#colIndex section {
+    padding: 0 20px;
+	width: 376px; height: auto;
+
+}
+
+#colIndex .one {
+	width: 128px;
+	height: 128px;
+	padding: 15px;
+	border-style: solid;
+	border-color: #070707;
+	border-width: 5px;
+	border-radius: 50%;
+	background-color: #ff5f03;
+	filter:grayscale();
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#colIndex .onefound {
+	width: 128px;
+	height: 128px;
+	padding: 15px;
+	border-style: solid;
+	border-color: #070707;
+	border-width: 5px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	filter: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+/* FOOTER
+----------------------------------------
+*/
+footer {
+	font-size: 0.8em;
+	background-color: #070707;
+}
+
+footer #aoc {
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 1.1em;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+footer li {
+	list-style: none;
+	padding: 10px 20px;
+}
+
+/* MEDIA QUERIES (Mobile)
+----------------------------------------
+switches to head nav, removes some columns and scales elements accordingly
+*/
+
+@media (max-width: 767px) {
+
+}
